@@ -1,0 +1,1 @@
+[{"cover":"https://core-hexin.github.io/resources/picture/websiteimage/carousel/1.png"},{"cover":"https://core-hexin.github.io/resources/picture/websiteimage/carousel/2.png"},{"cover":"https://core-hexin.github.io/resources/picture/websiteimage/carousel/3.png"},{"cover":"https://core-hexin.github.io/resources/picture/websiteimage/carousel/4.png"}]
