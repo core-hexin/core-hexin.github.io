@@ -14,6 +14,9 @@ proxies:
   - {name: 🇯🇵 日本, server: 36.139.241.198, port: 26118, type: trojan, password: CVvGSVwfGQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡, server: 36.139.241.198, port: 16121, type: trojan, password: CVvGSVwfGQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: 36.139.241.198, port: 14571, type: trojan, password: CVvGSVwfGQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
+  - {name: 使用说明:点击闪电查看延迟, server: 123.156.231.12, port: 11112, type: trojan, password: CVvGSVwfGQ, sni: query.hicloud.com, skip-cert-verify: true, udp: true}
+  - {name: 使用说明:点击闪电查看延迟
+      - 下次更新时间:2024/02/10 20:40(需手动更新)", server: 123.156.231.12, port: 11112, type: trojan, password: CVvGSVwfGQ, sni: query.hicloud.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Cloud technology制作
     type: select
@@ -28,7 +31,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - 🇭🇰 香港
       - 使用说明:点击闪电查看延迟
-      - 下次更新时间:2024/02/10 20:40
+      - 下次更新时间:2024/02/10 20:40(需手动更新)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,Cloud technology制作
   - DOMAIN-SUFFIX,ip6-localhost,Cloud technology制作
