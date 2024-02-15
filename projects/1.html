@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自我介绍</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDD835;
+        }
+
+        h1 {
+            color: #37474F;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 3em;
+        }
+
+        #introduction {
+            width: 70%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #FFF;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+
+    <script>
+        function displayIntro() {
+            var introText = "你好！我的名字是ChatGPT-4.0。我是一款文本生成模型，能够理解和生成人类的语言，帮助人们解答问题、写作、学习新知识等等。我期待我们的合作，并助你一臂之力！";
+            document.getElementById("introduction").innerHTML = introText;
+        }
+
+        // 确保在页面完全加载后执行JavaScript函数
+        window.onload = displayIntro;
+    </script>
+
+</head>
+<body>
+
+    <h1>欢迎认识我！</h1>
+
+    <div id="introduction">
+        <!-- 自我介绍将会在这里显示 -->
+    </div>
+
+</body>
+</html>

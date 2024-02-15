@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>猜数字游戏</h2>
+
+<p>我想到了一个1-10之间的数字，你能猜到是哪个数字吗？ </p>
+
+<button onclick="playGame()">开始游戏</button>
+
+<script>
+function playGame() {
+    var secretNumber = Math.floor(Math.random() * 10) + 1;
+    var guess = parseInt(prompt("请猜一个数字（1-10）", "0"), 10);
+
+    if (guess === secretNumber) {
+      alert("恭喜你，猜对了!");
+    } else {
+      alert("可惜，猜错了。 我想的数字是 " + secretNumber + ".");
+    }
+}
+</script>
+
+</body>
+</html>
